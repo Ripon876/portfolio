@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Titillium Web', sans-serif !important;
+}
+.nav-link{
+	font-weight: 500 !important;
+	color: white !important;
+}
+.navbar{
+	background:  linear-gradient(90deg, #136a8a, #267871) !important;
+}
+.navbar-collapse{
+	text-align: center;
+}
+.header{
+	height: 550px;
+	background: linear-gradient(90deg, #136a8a, #267871) ;
+}
+.navbar-brand{
+	color: white !important;
+	font-weight: bold;
+	font-size: 40px !important;
+}
+.slider-btn .btn-warning{
+	margin-top: 20px;
+    width: 228px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    background: #eb7d4b !important;
+	border: none !important;
+}
+
+.slider-info{
+	text-align: center;
+	margin: 130px auto 0px auto;
+}
+.slider-text h3{
+	color: white;
+	font-size: 40px;
+}
