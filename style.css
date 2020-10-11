@@ -45,3 +45,36 @@ body{
 	color: white;
 	font-size: 40px;
 }
+section.services {
+    height: 550px;
+    background: #17c2a4;
+    color: white;
+    padding: 80px 0px 80px 0px;
+}
+
+.service-title h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.service-icon i {
+    font-size: 60px;
+}
+
+.service-icon {
+    text-align: center;
+}
+.item-1 h3 {
+    text-align: center;
+    margin: 15px;
+}
+
+.item-1 p {
+    text-align: center;
+}
+.service-title p {
+    text-align: center;
+    width: 500px;
+    margin: 0px auto 60px auto;
+}
