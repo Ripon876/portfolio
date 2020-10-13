@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Titillium Web', sans-serif !important;
+}
+.nav-link{
+	font-weight: 500 !important;
+	color: white !important;
+}
+a.nav-link:hover {
+    background: #3736353d !important;
+    border-radius:7px;
+   
+}
+.navbar-collapse{
+	text-align: center;
+}
+.header{
+	height: 550px;
+	background: linear-gradient(90deg, #136a8a, #267871) ;
+}
+.navbar-brand{
+	color: white !important;
+	font-weight: bold;
+	font-size: 40px !important;
+}
+.slider-btn .btn-warning{
+	margin-top: 20px;
+    width: 228px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    background: #eb7d4b !important;
+	border: none !important;
+}
+
+.slider-info{
+	text-align: center;
+	margin: 130px auto 0px auto;
+}
+.slider-text h3{
+	color: white;
+	font-size: 40px;
+}
+section.services {
+    height: 550px;
+    background: #17c2a4;
+    color: white;
+    padding: 80px 0px 80px 0px;
+}
+
+.service-title h3 ,.our-team-title h3,.skills-title h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.service-title p,.our-team-title p,.skills-title p {
+    text-align: center;
+    width: 500px;
+    margin: 0px auto 60px auto;
+}
+.service-icon i {
+    font-size: 60px;
+}
+
+.service-icon {
+    text-align: center;
+}
+.item-1 h3,.member h3 {
+    text-align: center;
+    margin: 15px;
+}
+
+.item-1 p,.member p {
+    text-align: center;
+}
+
+section.our-team{
+	height: 750px;
+    background: rgb(231 241 248);
+    color: #554d4d;
+    padding: 80px 0px 80px 0px;
+}
+.service-img img {
+    width: 200px;
+    height: auto;
+}
+.service-img {
+    text-align: center;
+}
+
+.mem-profession{
+	text-align: center;
+}
+.member .mem-social-acc {
+    text-align: center;
+}
+
+.mem-social-acc i {
+    background: #bdd1df;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding-top: 7px;
+    font-size: 16px;
+    margin: 0px 4px;
+}
+section.skills {
+    padding: 80px 0px;
+    height: 550px;
+    background: white;
+}
+.skills-box {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/*progress bar */
+
+
+.circle-chart {
+  width: 150px;
+  height: 150px;
+}
+
+.circle-chart__circle {
+  stroke: #00acc1;
+  stroke-width: 2;
+  stroke-linecap: square;
+  fill: none;
+  animation: circle-chart-fill 2s reverse; /* 1 */ 
+  transform: rotate(-90deg); /* 2, 3 */
+  transform-origin: center; /* 4 */
+}
+
+/**
+ * 1. Rotate by -90 degree to make the starting point of the
+ *    stroke the top of the circle.
+ * 2. Scaling mirrors the circle to make the stroke move right
+ *    to mark a positive chart value.
+ * 3. Using CSS transforms on SVG elements is not supported by Internet Explorer
+ *    and Edge, use the transform attribute directly on the SVG element as a
+ * .  workaround.
+ */
+
+.circle-chart__circle--negative {
+  transform: rotate(-90deg) scale(1,-1); /* 1, 2, 3 */
+}
+
+.circle-chart__background {
+  stroke: #efefef;
+  stroke-width: 2;
+  fill: none; 
+}
+
+.circle-chart__info {
+  animation: circle-chart-appear 2s forwards;
+  opacity: 0;
+  transform: translateY(0.3em);
+}
+
+.circle-chart__percent {
+  alignment-baseline: central;
+  text-anchor: middle;
+  font-size: 8px;
+}
+
+.circle-chart__subline {
+    alignment-baseline: central;
+    text-anchor: middle;
+    font-size: 3px;
+}
+
+.success-stroke {
+  stroke: #00C851;
+}
+
+.warning-stroke {
+  stroke: #ffbb33;
+}
+
+.danger-stroke {
+  stroke: #ff4444;
+}
+
+@keyframes circle-chart-fill {
+  to { stroke-dasharray: 0 100; }
+}
+
+@keyframes circle-chart-appear {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
