@@ -1,12 +1,13 @@
+// Circular progress bar
 function makesvg(percentage, inner_text=""){
 
   var abs_percentage = Math.abs(percentage).toString();
   var percentage_str = percentage.toString();
   var classes = ""
 
-  if(percentage < 0){
-    classes = "danger-stroke circle-chart__circle--negative";
-  } else if(percentage > 0 && percentage <= 30){
+  if(percentage < 25){
+    classes = "danger-stroke";
+  } else if(percentage > 0 && percentage <= 40){
     classes = "warning-stroke";
   } else{
     classes = "success-stroke";
