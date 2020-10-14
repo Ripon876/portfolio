@@ -54,7 +54,7 @@ section.services {
     padding: 80px 0px 80px 0px;
 }
 
-.service-title h3 ,.our-team-title h3,.skills-title h3{
+.service-title h3 ,.our-team-title h3,.skills-title h3 ,.portfolio-title h3{
     text-align: center;
     font-size: 40px;
     font-weight: 600;
@@ -121,6 +121,46 @@ section.skills {
     margin-bottom: 25px;
 }
 
+
+/*our portfolio */
+section.portfolio {
+    height: 900px;
+    background: #ffdd99;
+    padding: 80px 0px;
+}
+.tab-btn {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.tab-btn button {
+    margin: 0px 5px;
+    background: #ebc985;
+    color: #393939;
+    border: none;
+}
+.tab-btn .btn-danger {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+.tab-btn .btn-danger:hover{
+	background: white !important;
+	color: #393939;
+}
+.tab-btn .btn-danger:visited {
+  background: white !important;
+  color: #393939;
+}
+.tab-btn .btn-danger:active {
+  background: white !important;
+  color: #393939;
+}
+.portfolio-title p{
+	text-align: center;
+    width: 500px;
+    margin: 0px auto 30px auto;
+}
 /*progress bar */
 
 
