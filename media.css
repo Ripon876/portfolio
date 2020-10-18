@@ -1,3 +1,617 @@
-@media only screen and (min-width: 500px) and (max-width: 600px){
 
+/*Small device*/
+
+
+
+
+
+/*<-------------------------------------480----------------------->*/
+
+@media (min-width: 480px) { 
+
+.header{
+	height: 370px;
+    }	
+section.services{
+	height: 1200px;
+    }
+ section.our-team{
+	height: 2020px;
+    }
+section.skills{
+	height: 1320px; 
+    }  
+section.portfolio{
+    height: 1830px;
+    }     
+section.our-clints{
+	height: 960px;
+    }
+section.contact-us{
+	height: 670px;
+    }
+
+/* all headings*/
+/*<--------------->*/
+
+.service-title h3, .our-team-title h3, .skills-title h3, .portfolio-title h3, .our-clints-title h3, .contact-form-title h3 {
+    font-size: 30px;
+} 
+
+.service-title p, .our-team-title p, .skills-title p, .our-clints-title p, .contact-form-title p {
+    text-align: center;
+    width: 390px;
+    margin: 0px auto 60px auto;
+}
+
+/*<--------------->*/
+/*  header*/ 
+
+.slider-info{
+	margin-top: 70px;
+    }
+.slider-text h3{
+    font-size: 20px;
+   }
+.slider-btn .btn-warning{
+	margin-top: 25px;
+	font-size: 15px;
+	width: 180px;
+    height: 40px;
+}
+
+/*<--------------->*/
+/*  service*/
+
+.item-info{
+    margin-bottom: 50px;
+    width: 66%;
+    margin-left: 70px;
+
+}
+/*<--------------->*/
+/*  our team*/
+.mem-social-acc{
+    margin-bottom: 50px;
+}
+
+/*<--------------->*/
+/*  we got skills*/
+.skill-name{
+	margin-bottom: 55px !important;
+}
+
+/*<--------------->*/
+/*  our clints*/
+
+.clint-photo img {
+    width: 90px;
+}
+.clint-comment {
+	margin-left: 40px
+}
+.clint-comment p {
+    width: 270px;
+}
+
+}
+
+/*<-------------------------------------576----------------------->*/
+
+
+
+@media (min-width: 576px) {  
+.header{
+	height: 400px;
+    }	
+section.services{
+	height: 1210px;
+    }
+ section.our-team{
+	height: 2030px;
+    }
+section.skills{
+	height: 1340px; 
+    }  
+section.portfolio{
+    height: 1840px;
+    }     
+section.our-clints{
+	height: 1020px;
+    }
+section.contact-us{
+	height: 680px;
+    }
+
+    /* all headings*/
+/*<--------------->*/
+
+.service-title h3, .our-team-title h3, .skills-title h3, .portfolio-title h3, .our-clints-title h3, .contact-form-title h3 {
+    font-size: 35px;
+}
+.service-title p, .our-team-title p, .skills-title p, .our-clints-title p, .contact-form-title p {
+    text-align: center;
+    width: 390px;
+    margin: 0px auto 60px auto;
+}
+/*<--------------->*/
+/*  header*/ 
+
+.slider-info{
+	margin-top: 80px;
+    }
+.slider-text h3{
+    font-size: 20px;
+   }
+.slider-btn .btn-warning{
+	margin-top: 35px;
+	font-size: 20px;
+	width: 200px;
+    height: 50px;
+}
+
+/*<--------------->*/
+/*  service*/
+
+.item-info{
+    margin-bottom: 30px;
+    width: 66%;
+    margin-left: 80px;
+
+}
+
+/*<--------------->*/
+/*  our team*/
+.mem-social-acc{
+    margin-bottom: 50px;
+}
+/*<--------------->*/
+/*  we got skills*/
+.skill-name{
+	margin-bottom: 55px !important;
+}
+
+}
+
+
+/*<-------------------------------------768----------------------->*/
+
+@media (min-width: 768px) {  
+.header{
+	height: 470px;
+    }	
+section.services{
+	height: 765px;
+    }
+ section.our-team{
+	height: 1210px;
+    }
+section.skills{
+	height: 820px; 
+    }  
+section.portfolio{
+    height: 1830px;
+    }     
+section.our-clints{
+	height: 650px;
+    }
+section.contact-us{
+	height: 680px;
+    }
+
+    /* all headings*/
+/*<--------------->*/
+
+.service-title h3, .our-team-title h3, .skills-title h3, .portfolio-title h3, .our-clints-title h3, .contact-form-title h3 {
+    font-size: 40px;
+}
+/*  header*/ 
+.slider-info{
+	margin-top: 100px;
+    }
+.slider-text h3{
+    font-size: 25px;
+   }
+.slider-btn .btn-warning{
+	margin-top: 30px;
+}
+/*<--------------->*/
+/*  service*/
+.item-info{
+	margin-bottom: 40px;
+	margin-left: 40px;
+	width: 70%;
+}
+
+/*<--------------->*/
+/*  our team*/
+.mem-social-acc{
+    margin-bottom: 50px;
+}
+
+/*<--------------->*/
+/*  we got skills*/
+.skill-name{
+	margin-bottom: 60px !important;
+}
+
+/*<--------------->*/
+/*  our clints*/
+
+.clint-photo img {
+    width: 80px;
+}
+.clint-comment {
+	margin-left: 40px
+}
+.clint-comment p {
+    width: 190px;
+}
+}
+
+/*<-------------------------------------992----------------------->*/
+
+@media (min-width: 992px) { 
+section.services{
+	height: 550px;
+    }
+section.our-clints{
+	height: 600px;
+    }
+section.our-team{
+	height: 750px;
+    }
+section.skills{
+	height: 550px; 
+    }
+section.portfolio{
+    height: 1200px;
+    }
+    /*header -------*/
+    .slider-text h3 {
+    color: white;
+    font-size: 40px;
+    }
+/*    ---------*/
+
+.nav-link{
+	font-weight: 500 !important;
+	color: white !important;
+}
+a.nav-link:hover {
+    background: #3736353d !important;
+    border-radius:7px;
+   
+}
+.navbar-collapse{
+	text-align: center;
+}
+.header{
+	height: 550px;
+	background: linear-gradient(90deg, #136a8a, #267871) ;
+}
+.navbar-brand{
+	color: white !important;
+	font-weight: bold;
+	font-size: 40px !important;
+}
+.slider-btn .btn-warning{
+	margin-top: 20px;
+    width: 228px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    background: #eb7d4b !important;
+	border: none !important;
+}
+
+.slider-info{
+	text-align: center;
+	margin: 130px auto 0px auto;
+}
+.slider-text h3{
+	color: white;
+	font-size: 40px;
+}
+section.services {
+    height: 550px;
+    background: #17c2a4;
+    color: white;
+    padding: 80px 0px 80px 0px;
+}
+
+.service-title h3 ,.our-team-title h3,.skills-title h3 ,.portfolio-title h3,.our-clints-title h3,.contact-form-title h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.service-title p,.our-team-title p,.skills-title p ,.our-clints-title p,.contact-form-title p{
+    text-align: center;
+    width: 500px;
+    margin: 0px auto 60px auto;
+}
+.service-icon i {
+    font-size: 60px;
+}
+
+.service-icon {
+    text-align: center;
+}
+/*<--------------->*/
+/*  service*/
+.item-info{
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	
+}
+.item-1 h3,.member h3 {
+    text-align: center;
+    margin: 15px;
+}
+
+.item-1 p,.member p {
+    text-align: center;
+}
+
+section.our-team{
+	height: 750px;
+    background: rgb(231 241 248);
+    color: #554d4d;
+    padding: 80px 0px 80px 0px;
+}
+.service-img img {
+    width: 200px;
+    height: auto;
+}
+.service-img {
+    text-align: center;
+}
+
+.mem-profession{
+	text-align: center;
+}
+.member .mem-social-acc {
+    text-align: center;
+}
+
+.mem-social-acc i {
+    background: #bdd1df;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding-top: 7px;
+    font-size: 16px;
+    margin: 0px 4px;
+}
+/*Skills */
+
+section.skills {
+    padding: 80px 0px;
+    height: 550px;
+    background: white;
+}
+.skills-box {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+/*our portfolio */
+section.portfolio {
+    height: 1200px;
+    background: #ffdd99;
+    padding: 80px 0px;
+}
+.tab-btn {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.tab-btn button {
+    margin: 0px 5px;
+    background: #ebc985;
+    color: #393939;
+    border: none;
+}
+.tab-btn .btn-danger {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+.tab-btn .btn-danger:hover{
+	background: white !important;
+	color: #393939;
+}
+.tab-btn .btn-danger:visited {
+  background: white !important;
+  color: #393939;
+}
+.tab-btn .btn-danger:active {
+  background: white !important;
+  color: #393939;
+}
+.portfolio-title p{
+	text-align: center;
+    width: 500px;
+    margin: 0px auto 30px auto;
+}
+.laptop {
+    margin-top: 40px;
+    text-align: center;
+}
+.laptop-box img{
+	width: 400px;
+}
+.laptop h3 {
+    text-align: center;
+    margin-top: 23px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.laptop h3:nth-child(1){
+	margin-bottom: 50px;
+}
+.laptop h3:nth-child(2){
+	margin-bottom: 50px;
+}
+#profile-item{
+	margin-bottom: 100px;
+}
+.portfolio-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.port-btn {
+    font-size: 16px;
+    font-weight: 600;
+    background: #17c2a4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 60px;
+    width: 285px;
+}
+
+/*our clints*/
+
+.our-clints-title p {
+    text-align: center;
+}
+
+section.our-clints {
+    background: rgb(215 70 128);
+    color: white;
+    height: 600px;
+}
+.clint-photo img{
+	width: 100px;
+}
+.testimonials {
+    display: flex;
+}
+
+.clint-comment {
+    width: 80%;
+     margin-left: 50px;
+}
+
+.clint-photo {
+    width: 20%;
+}
+.clint-comment p {
+    width: 300px;
+}
+.clint-comment h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+/*Contact US*/
+.contact-us {
+    background: #3c5499;
+    color: white;
+    height: 700px;
+}
+
+.contact-form-title p {
+    text-align: center;
+}
+.name-email{
+	text-align: center;
+}
+.name-email input:nth-child(1) {
+    width: 48%;
+    margin-right: 11px;
+    background-color: #273a71;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.name-email input:nth-child(2) {
+    width: 48%;
+    margin-left: 18px;
+    background-color: #273a71;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.message{
+	text-align: center;
+}
+.message input {
+    width: 96%;
+    background-color: #273a71;
+    height: 165px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    color: white;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-bottom: 120px;
+    padding-right: 20px;
+
+}
+.submit {
+    text-align: center;
+}
+
+input#submit {
+    background: #30bae7;
+    border: none;
+    border-radius: 5px;
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+/* Footer*/
+.footer{
+	background: #344b8e;
+	height: 100px;
+}
+.footer-links{
+	text-align: center;
+}
+.f-links li{
+	display: block;
+	float: left;
+}
+.f-links{
+    text-align: center;
+    margin: 0px 135px 0px;
+    padding-top: 30px;
+}
+.f-links li{
+    float: left;
+    list-style: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 25px;
+}
+.f-links li a{
+	color: white;
+	text-decoration: none;
+}
+p#footer-creadit {
+    text-align: right;
+    color: white;
+}
 }
