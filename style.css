@@ -7,6 +7,10 @@
 body{
 	font-family: 'Titillium Web', sans-serif !important;
 }
+section{
+	padding: 80px 0px;
+}
+
 .nav-link{
 	font-weight: 500 !important;
 	color: white !important;
@@ -54,13 +58,13 @@ section.services {
     padding: 80px 0px 80px 0px;
 }
 
-.service-title h3 ,.our-team-title h3,.skills-title h3 ,.portfolio-title h3{
+.service-title h3 ,.our-team-title h3,.skills-title h3 ,.portfolio-title h3,.our-clints-title h3,.contact-form-title h3{
     text-align: center;
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 20px;
 }
-.service-title p,.our-team-title p,.skills-title p {
+.service-title p,.our-team-title p,.skills-title p ,.our-clints-title p,.contact-form-title p{
     text-align: center;
     width: 500px;
     margin: 0px auto 60px auto;
@@ -111,6 +115,8 @@ section.our-team{
     font-size: 16px;
     margin: 0px 4px;
 }
+/*Skills */
+
 section.skills {
     padding: 80px 0px;
     height: 550px;
@@ -124,7 +130,7 @@ section.skills {
 
 /*our portfolio */
 section.portfolio {
-    height: 600px;
+    height: 1200px;
     background: #ffdd99;
     padding: 80px 0px;
 }
@@ -160,6 +166,196 @@ section.portfolio {
 	text-align: center;
     width: 500px;
     margin: 0px auto 30px auto;
+}
+.laptop {
+    margin-top: 40px;
+    text-align: center;
+}
+.laptop-box img{
+	width: 400px;
+}
+.laptop h3 {
+    text-align: center;
+    margin-top: 23px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.laptop h3:nth-child(1){
+	margin-bottom: 50px;
+}
+.laptop h3:nth-child(2){
+	margin-bottom: 50px;
+}
+#profile-item{
+	margin-bottom: 100px;
+}
+.portfolio-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.port-btn {
+    font-size: 16px;
+    font-weight: 600;
+    background: #17c2a4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 60px;
+    width: 285px;
+}
+
+/*our clints*/
+
+.our-clints-title p {
+    text-align: center;
+}
+
+section.our-clints {
+    background: rgb(215 70 128);
+    color: white;
+    height: 600px;
+}
+.clint-photo img{
+	width: 100px;
+}
+.testimonials {
+    display: flex;
+}
+
+.clint-comment {
+    width: 80%;
+     margin-left: 50px;
+}
+
+.clint-photo {
+    width: 20%;
+}
+.clint-comment p {
+    width: 300px;
+}
+/*.clint:nth-child(1) {
+    padding-left: 95px;
+    margin-bottom: 150px;
+}
+.clint:nth-child(2) {
+    padding-left: 30px;
+    margin-bottom: 150px;
+}
+.clint:nth-child(3) {
+    padding-left: 95px;
+}
+.clint:nth-child(4) {
+    padding-left: 30px;
+}*/
+.clint-comment h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+/*Contact US*/
+.contact-us {
+    background: #3c5499;
+    color: white;
+    height: 700px;
+}
+
+.contact-form-title p {
+    text-align: center;
+}
+.name-email{
+	text-align: center;
+}
+.name-email input:nth-child(1) {
+    width: 48%;
+    margin-right: 11px;
+    background-color: #273a71;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.name-email input:nth-child(2) {
+    width: 48%;
+    margin-left: 18px;
+    background-color: #273a71;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.message{
+	text-align: center;
+}
+.message input {
+    width: 96%;
+    background-color: #273a71;
+    height: 165px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    color: white;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-bottom: 120px;
+    padding-right: 20px;
+
+}
+.submit {
+    text-align: center;
+}
+
+input#submit {
+    background: #30bae7;
+    border: none;
+    border-radius: 5px;
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+/* Footer*/
+.footer{
+	background: #344b8e;
+	height: 100px;
+}
+.footer-links{
+	text-align: center;
+}
+.f-links li{
+	display: block;
+	float: left;
+}
+.f-links{
+    text-align: center;
+    margin: 0px 135px 0px;
+    padding-top: 30px;
+}
+.f-links li{
+    float: left;
+    list-style: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 25px;
+}
+.f-links li a{
+	color: white;
+	text-decoration: none;
+}
+p#footer-creadit {
+    text-align: right;
+    color: white;
 }
 /*progress bar */
 
