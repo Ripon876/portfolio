@@ -1,0 +1,231 @@
+body{
+    background-color: rgb(26, 27, 30) !important;
+    font-family: 'Roboto Mono', monospace;
+    overflow-x: hidden;
+}
+nav{
+  z-index: 999999 !important;
+}
+
+iframe {
+    display: none;
+}
+.fa-solid,.fas{
+       font-family: "Font Awesome 6 Free" !important;
+}
+.fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands" !important;
+    font-weight: 400;
+}
+.ftco-navbar-light .navbar-nav > .nav-item.active > a{
+	color: #106eea !important;
+}
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+    color: #106eea !important;
+}
+
+img.logo {
+    height: 55px;
+}
+a{
+    text-decoration: none !important;
+}
+.social-media p a:hover {
+    background: #FAD53C !important;
+    color: white !important;
+    border-color: #FAD53C !important;
+}
+.social-media a {
+	color: #106eea !important;
+}
+.slider > ul > .showli {
+    background-color: #106eea !important;
+}
+.slider > ul > li:hover {
+    background-color: #106eea !important;
+}
+.footer-copyright a{
+    color: #106eea !important;
+}
+
+.moveTo a{
+    color: #106eea !important;
+}
+
+
+.teamMember{
+	height: 150px;
+	width: 150px;
+	transition: all 0.3s;
+}
+.fitImg{
+	object-fit: cover;
+    height: 100% !important;
+	transition: all 0.3s;
+}
+.memberInfo{
+    left: 50%;
+    margin: -25% 0 0 -50%;
+    display: block;
+    transition: all 0.3s;
+    bottom: 0;
+    width: 0;
+    opacity: 0;
+    padding: 0 !important;
+    text-align: center;
+    padding-bottom: 10px !important;
+    background: #00000078;
+    backdrop-filter: blur(7px);
+}
+
+.teamMember .card-title{
+    font-size: 20px;
+    line-height: 1;
+}
+.teamMember .card-text{
+     font-size: 12px;
+}
+
+.teamMember:hover .memberInfo {
+	opacity: 1;
+    width: 100%;
+    height: 50px;
+}
+
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info-box {
+  color: #444444;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.3);
+  padding: 20px 0 30px 0;
+  transition: all 0.2s;
+}
+
+.contact .info-box:hover{
+	    box-shadow: 0 0 30px rgb(16 110 234 / 28%);
+}
+.contact .info-box i {
+  font-size: 32px;
+  color: #106eea !important;
+  border-radius: 50%;
+  padding: 8px;
+  border: 2px dotted #b3d1fa;
+}
+
+.contact .info-box h3 {
+  font-size: 20px;
+  color: #777777;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.contact .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+nav.fixed-top.ftco-navbar-light.ftco_navbar.navbar.navbar-expand-lg * {
+    color: white !important;
+}
+
+nav.ftco-navbar-light {
+    background: #25262B !important;
+}
+.searchContainer input#search{
+  height: 40px;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+}
+
+.social-media-profile a{
+    color: black;
+    transition: all 0.2s;
+}
+.social-media-profile i{
+    font-size: 20px;
+    transition: all 0.2s;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
+.social-media-profile a:hover{
+    color: #106eea;
+}
+.social-media-profile i:hover{
+    transform: scale(1.05);
+}
+
+/* footer */
+.footer {
+  background: #141414;
+  color: white;
+}
+.footer .links ul {
+  list-style-type: none;
+}
+.footer .links li a {
+  color: white;
+  transition: color 0.2s;
+  font-size: 14px;
+}
+.footer .links li a:hover {
+  text-decoration: none;
+  color: #4180CB;
+}
+.footer .about-company i {
+  font-size: 25px;
+}
+.footer .about-company a {
+  color: white;
+  transition: color 0.2s;
+}
+.footer .about-company a:hover {
+  color: #4180CB;
+}
+.footer .location i {
+  font-size: 18px;
+}
+.footer .copyright p {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer h2, h4 {
+    color: white;
+}
+
+
+
+
+/*===================================================*/
+
+li.nav-item {
+ padding: 0 5px;
+}
+.nav-item {
+    align-items: center;
+    margin: auto;
+}
+.nav-item .nav-link .active{
+    background: #3a3b40;
+}
+.nav-item .nav-link:hover{
+    background: #3a3b40;
+}
+
+.nav-item .nav-link{
+    background: transparent;
+    padding: 8px 12px 8px 12px  !important;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+/*
+#tsparticles canvas{
+    background-color: rgb(37 38 43 / 30%) !important;
+}*/

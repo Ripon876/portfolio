@@ -1,0 +1,64 @@
+.projects *{
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+}
+.projects .container{
+    background: #25262b;
+    border-radius: 30px;
+    backdrop-filter: blur(1px);
+    /*font-family: 'Roboto Mono', monospace;*/
+}
+.projectInfo h1{
+    font-size: 40px;
+}
+
+
+.filterBtn{
+    background: #1a1b1e;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+.filterBtn:focus{
+    color: #1a1b1e;
+    background: white;
+}
+
+.filterBtn:hover{
+    color: #1a1b1e;
+    background: white;
+}
+.projectItemCard{
+    transition: all 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+.projectItemCard img{
+    transition: all 0.3s;
+}
+.projectItemCard:hover >  img{
+    transform: scale(1.1);
+    filter: grayscale(100%) brightness(0.5);
+}
+.projectItemCard .iconDiv{
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    margin: auto;
+    width: 100%;
+}
+.projectItemCard i{
+    color: white !important;
+    font-size: 30px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 16px;
+    opacity: 0;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.projectItemCard:hover  i{
+    opacity: 1;
+}

@@ -1,0 +1,50 @@
+.banner{
+	height: 100vh;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.bannerContainer{
+  margin:auto;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.bannerContainer h1{
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 60px;
+}
+
+.bannerBtn{
+	margin: auto;
+	width: 170px;
+	height: 55px;
+	text-align: center;
+}
+
+.bannerBtn button{
+  background: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.bannerBtn button:hover{
+  background: #25262b;
+  color: white;
+  font-weight: 600;
+  border: 2px solid;
+}
+
+.bannerIcon{
+	color: white;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  background: #25262b;
+  margin: auto;
+  border-radius: 50%;
+  text-align: center;
+  padding: 6px;
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+.service *{
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+}
+.service .container{
+    background: #25262b;
+    border-radius: 30px;
+    backdrop-filter: blur(1px);
+    /*font-family: 'Roboto Mono', monospace;*/
+}
+.service .container h1{
+	font-size: 40px;
+}
+
+.serviceItem .card{
+	background: #1a1b1e;
+    box-shadow: -2px 4px 9px 1px #1a1b1e;
+	transition: all 0.3s;
+}
+.serviceItem .card:hover {
+    background: #f7f7f7;
+    transform: translate(5px, -5px);
+    box-shadow: -7px 8px 10px 3px #1a1b1e;
+}
+.serviceItem .card:hover .card-text ,  .card:hover i, .card:hover  .card-title{
+	color: #1a1b1e;
+	font-weight: 600;
+}
+.serviceItem .card i {
+	height: 55px;
+    width: 60px;
+    font-size: 50px;
+    margin: auto;
+}
+.seeMoreBtn{
+	background-color: #25262b;
+    border-color: #25262b;
+    box-shadow: -1px 4px 5px 4px rgb(26 27 30 / 19%);
+}
+.seeMoreBtn:hover{
+	 color: white;
+}
