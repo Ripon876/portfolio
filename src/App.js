@@ -1,9 +1,10 @@
 import React from "react";
 import HeaderNav from "./components/header/Header";
-import Banner from './components/banner/Banner'
-import About from './components/About/About'
-import Services from './components/service/Services'
-import Projects from './components/projects/Projects'
+import Banner from './components/banner/Banner';
+import About from './components/About/About';
+import Skills from './components/skills/Skills';
+import Services from './components/service/Services';
+import Projects from './components/projects/Projects';
 
 
 
@@ -15,6 +16,7 @@ function App() {
   <HeaderNav />
   <Banner />
   <About />
+  <Skills />
   <Services />
   <Projects />
 

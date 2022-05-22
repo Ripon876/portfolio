@@ -1,4 +1,6 @@
-
+div#about {
+    padding-top: 90px;
+}
 .about *{
 	color: white;
 	font-family: 'Roboto Mono', monospace;
@@ -19,7 +21,7 @@
 .aboutImgContainer img{
     filter: grayscale(100%);
     height: 100%;
-    box-shadow: -1px 4px 18px 3px #1a1b1e9c;
+    /*box-shadow: -1px 4px 18px 3px #1a1b1e9c;*/
     transition: all 0.3s ease-in-out;
 }
 .aboutImgContainer img:hover{

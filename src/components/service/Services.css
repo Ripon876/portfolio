@@ -1,3 +1,6 @@
+div#services {
+    padding-top: 130px !important;
+}
 .service *{
 	color: white;
 	font-family: 'Roboto Mono', monospace;

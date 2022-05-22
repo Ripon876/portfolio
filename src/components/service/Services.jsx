@@ -13,7 +13,7 @@ function Services() {
 				<div className="service p-5" id="services">
 					<div className="container text-center p-5" >
 						<div className="serviceInfo py-3">
-							<h1>My Services</h1>
+							<h1>Services</h1>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada.</p>
 						</div>
 						<div className="services pt-5">

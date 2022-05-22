@@ -43,7 +43,8 @@ const particlesLoaded = (container) => {
             </span>
         </h1>
         <div className="bannerBtn pt-3">
-          <button className="btn">Get In Touch</button>
+
+         <a href="#about"><button className="btn">Get In Touch</button></a>
         </div>
         <div  className="mt-4 bannerIcon">
            <i className="fa-solid fa-arrow-down" ></i>

@@ -5,6 +5,7 @@ import './About.css';
 
 function About() {
 	return (
+		<div>
 		<Rotate top left>
 		<div className="about" id="about" >
 			<div className="container py-5 text-center  mt-5">
@@ -15,7 +16,7 @@ function About() {
 				<div className="row">
 					<div className="col-lg-4 p-4">
 						<div className="aboutImgContainer m-auto">
-							<img src="./assets/img/me.png" alt="" className="img-fluid rounded-circle" />
+							<img src="./assets/img/m2.png" alt="" className="img-fluid rounded-circle" />
 						</div>
 					</div>
 					<div className="col-lg-8 col-md-10 m-auto p-4">
@@ -39,6 +40,7 @@ function About() {
 			</div>
 		</div>
 		</Rotate>
+		</div>
 	)
 }
 

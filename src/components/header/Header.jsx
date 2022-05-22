@@ -23,8 +23,9 @@ function Header() {
             <ul className="navbar-nav ml-auto mr-md-3 text-center">
               <li className="nav-item active"><a href="#" className="nav-link active">Home</a></li>
               <li className="nav-item"><a href="#about" className="nav-link">About</a></li>
+              <li className="nav-item"><a href="#skills" className="nav-link">Skills</a></li>
               <li className="nav-item"><a href="#services" className="nav-link">Services</a></li>
-              <li className="nav-item"><a href="./pages/teammates.html" className="nav-link">Team mates</a></li>
+              <li className="nav-item"><a href="#projects" className="nav-link">Projects</a></li>
               <li className="nav-item"><a href="#contact" className="nav-link">Contact</a></li>
             </ul>
           </div>
