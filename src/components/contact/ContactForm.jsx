@@ -70,15 +70,15 @@ function handleSubmit(e){
 
 
     var {isError,...formData} = data;
-    axios.post(`${process.env.REACT_APP_SITE_HOST}/api/contact`,formData)
-    .then((res) => {
+  //   axios.post(`${process.env.REACT_APP_SITE_HOST}/api/contact`,formData)
+  //   .then((res) => {
  
-  if(res.status === 200 && res.data.success === true){
-  	setMsg(res.data.msg);
-  	setData(initialData)
-  }
+  // if(res.status === 200 && res.data.success === true){
+  // 	setMsg(res.data.msg);
+  // 	setData(initialData)
+  // }
 
-    })
+  //   })
 
  
 
