@@ -46,3 +46,19 @@ div#contact {
 .contactForm span.invalid-feedback{
     color: #fed83d !important;
 }
+.social_links span {
+    display: inline-grid;
+}
+
+
+.social_links span a i {
+    background: #1a1b1e;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 40px;
+    transition: all 0.3s;
+}
+.social_links span a i:hover {
+    background: white;
+    color: #1a1b1e !important;
+}
