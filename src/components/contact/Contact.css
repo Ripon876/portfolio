@@ -1,0 +1,48 @@
+div#contact {
+    padding-top: 90px;
+}
+#contact *{
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+}
+#contact .container{
+    background: #25262b;
+    border-radius: 30px;
+    backdrop-filter: blur(1px);
+    /*font-family: 'Roboto Mono', monospace;*/
+}
+#contact .container h1{
+	font-size: 40px;
+}
+
+.contactForm input{
+    height: 45px;
+    padding: 20px;
+    box-shadow: 4px 3px 11px 0px #1a1b1e;
+    background: #1a1b1e;
+    border: none;
+}
+.contactForm textarea{
+    box-shadow: 4px 3px 11px 0px #1a1b1e;
+    background: #1a1b1e;
+    border: none;
+}
+
+.contactForm input:focus{
+    background: #1a1b1e;
+    box-shadow: none;
+}
+.contactForm textarea:focus {
+    background: #1a1b1e;
+    box-shadow: none;
+}
+.subBtn{
+    background: #1a1b1e;
+    padding-left: 40px;
+    padding-right: 40px;
+    /*box-shadow: 0 0 7px 0px rgb(240 240 240 / 11%);*/
+    box-shadow: 4px 3px 11px 0px #1a1b1e;
+}
+.contactForm span.invalid-feedback{
+    color: #fed83d !important;
+}

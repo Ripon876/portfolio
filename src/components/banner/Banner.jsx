@@ -47,7 +47,9 @@ const particlesLoaded = (container) => {
          <a href="#about"><button className="btn">Get In Touch</button></a>
         </div>
         <div  className="mt-4 bannerIcon">
+        <a href="#about" className="text-white">
            <i className="fa-solid fa-arrow-down" ></i>
+        </a>
         </div>
     </div>
     </Fade>
