@@ -11,9 +11,9 @@ function Header() {
           </a>
           <div className="social-media order-lg-last">
             <p className="mb-0 d-flex">
-              <a href="#" className="d-flex align-items-center justify-content-center"><i className="fa-brands fa-facebook-f"></i></a>
-              <a href="#" className="d-flex align-items-center justify-content-center"><i className="fa-brands fa-twitter"></i></a>
-              <a href="#" className="d-flex align-items-center justify-content-center"><i className="fa-brands fa-instagram"></i></a>
+              <a href="https://www.facebook.com/ripon876" className="d-flex align-items-center justify-content-center"><i className="fa-brands fa-facebook-f"></i></a>
+              <a href="https://twitter.com/islam876ripon" className="d-flex align-items-center justify-content-center"><i className="fa-brands fa-twitter"></i></a>
+              <a href="https://www.instagram.com/ripon_876" className="d-flex align-items-center justify-content-center"><i className="fa-brands fa-instagram"></i></a>
             </p>
           </div>
           <button className="navbar-toggler p-1" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
