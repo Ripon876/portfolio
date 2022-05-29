@@ -17,7 +17,7 @@ div#services {
 
 .serviceItem .card{
 	background: #1a1b1e;
-    box-shadow: -2px 4px 9px 1px #1a1b1e;
+    box-shadow: 4px 3px 11px 0 #1a1b1e;
 	transition: all 0.3s;
 }
 .serviceItem .card:hover {

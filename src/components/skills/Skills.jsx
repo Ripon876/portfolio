@@ -14,7 +14,7 @@ function Skills() {
 					<ul className="skills-bar-container">
 					  <li>
 					    <div className="progressbar-title">
-					      <h3>HTML5 & CSS3</h3>
+					      <h3>HTML5 & CSS3 <img src="./assets/img/html.png" class="img-fluid" /><img src="./assets/img/css.png" class="img-fluid" /></h3>
 					        <span class="percent"><CountUp end={90}  duration={3.5}  delay={0} suffix="%"/></span>
 					    </div>
 					    <div className="bar-container">
@@ -23,7 +23,7 @@ function Skills() {
 					  </li>
 					  <li>
 					    <div className="progressbar-title">
-					      <h3>Bootstrap</h3>
+					      <h3>Bootstrap <img src="./assets/img/bootstrap.png" class="img-fluid" /></h3>
 					        <span class="percent"><CountUp end={95}  duration={3.5}  delay={1.5} suffix="%"/></span>
 					    </div>
 					    <div className="bar-container">
@@ -32,7 +32,7 @@ function Skills() {
 					  </li>
 					  <li>
 					    <div className="progressbar-title">
-					      <h3>JavaScript</h3>
+					      <h3>JavaScript <img src="./assets/img/js.png" class="img-fluid" /></h3>
 					        <span class="percent"><CountUp end={75}  duration={3.5}  delay={2.2} suffix="%"/></span>
 					    </div>
 					    <div className="bar-container">
@@ -41,7 +41,7 @@ function Skills() {
 					  </li>
 					  <li>
 					    <div className="progressbar-title">
-					      <h3>Jquery</h3>
+					      <h3>Jquery <img src="./assets/img/jquery.png" class="img-fluid" /></h3>
 					        <span class="percent"><CountUp end={70}  duration={3.5}  delay={2.8} suffix="%"/></span>
 					    </div>
 					    <div className="bar-container">
@@ -51,7 +51,7 @@ function Skills() {
 					  
 					  <li>
 					    <div className="progressbar-title">
-					      <h3>React Js</h3>
+					      <h3>React Js <img src="./assets/img/react.png" class="img-fluid" /></h3>
 					        <span class="percent"><CountUp end={85}  duration={3.5}  delay={3} suffix="%"/></span>
 					    </div>
 					    <div className="bar-container">
@@ -60,7 +60,7 @@ function Skills() {
 					  </li>
 					  <li>
 					    <div className="progressbar-title">
-					      <h3>Node Js</h3>
+					      <h3>Node Js <img src="./assets/img/node.png" class="img-fluid" /></h3>
 					        <span class="percent"><CountUp end={65}  duration={3.5}  delay={3.7} suffix="%"/></span>
 					    </div>
 					    <div className="bar-container">
@@ -69,7 +69,7 @@ function Skills() {
 					  </li>
 					  <li>
 					    <div className="progressbar-title">
-					      <h3>MongoDB<img src="https://d3cy9zhslanhfa.cloudfront.net/media/3800C044-6298-4575-A05D5C6B7623EE37/14345A14-0B48-4F52-AFE27AD7414B98CE/webimage-9DB7077C-99A8-4A24-A5FF342E6652D5EC.png" class="img-fluid" /></h3>
+					      <h3>MongoDB<img src="./assets/img/mongodb.png" class="img-fluid" /></h3>
 
 					        <span class="percent" ><CountUp end={70}  duration={3.5}  delay={4} suffix="%"/></span>
 					    </div>

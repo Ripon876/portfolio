@@ -16,7 +16,7 @@ function Header() {
               <a href="https://www.instagram.com/ripon_876" className="d-flex align-items-center justify-content-center"><i className="fa-brands fa-instagram"></i></a>
             </p>
           </div>
-          <button className="navbar-toggler p-1" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar-toggler p-1" id="toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="fa fa-bars"></span>
           </button>
           <div className="collapse navbar-collapse" id="ftco-nav">

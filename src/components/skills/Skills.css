@@ -12,8 +12,6 @@ padding-top: 160px;
 }
 
 
-
-
 /*=======*/
 
 @import url(https://fonts.googleapis.com/css?family=PT+Sans);
@@ -59,6 +57,7 @@ padding-top: 160px;
 }
 #skills .progressbar-title img {
     width: 35px;
+    filter: grayscale(100%);
 }
 
  .skills-bar-container li .bar-container .progressbar {
