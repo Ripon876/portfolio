@@ -18,10 +18,10 @@ function Services() {
 						</div>
 						<div className="services pt-5">
 							<div className="justify-content-center row">	
-								<ServiceItem icon="fa-solid fa-code" title="Card title" text="Some quick example text to build on the card title and make up the bulk of the card's content." />					
-								<ServiceItem icon="fa-solid fa-code" title="Card title" text="Some quick example text to build on the card title and make up the bulk of the card's content." />
-								<ServiceItem icon="fa-solid fa-code" title="Card title" text="Some quick example text to build on the card title and make up the bulk of the card's content." />
-								<ServiceItem icon="fa-solid fa-code" title="Card title" text="Some quick example text to build on the card title and make up the bulk of the card's content." />
+								<ServiceItem icon="fa-solid fa-code" title="SPA With React" text="Some quick example text to build on the card title and make up the bulk of the card's content." />					
+								<ServiceItem icon="fa-solid fa-code" title="API Creation" text="Some quick example text to build on the card title and make up the bulk of the card's content." />
+								<ServiceItem icon="fa-solid fa-code" title="API Integration" text="Some quick example text to build on the card title and make up the bulk of the card's content." />
+								<ServiceItem icon="fa-solid fa-code" title="Full Stack Web App" text="Some quick example text to build on the card title and make up the bulk of the card's content." />
 							</div>
 						</div>
 					</div>
