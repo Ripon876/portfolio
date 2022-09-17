@@ -61,10 +61,19 @@ function Skills() {
 					  <li>
 					    <div className="progressbar-title">
 					      <h3>Node Js <img src="./assets/img/node.png" class="img-fluid" /></h3>
-					        <span class="percent"><CountUp end={65}  duration={3.5}  delay={3.7} suffix="%"/></span>
+					        <span class="percent"><CountUp end={70}  duration={3.5}  delay={3.7} suffix="%"/></span>
 					    </div>
 					    <div className="bar-container">
 					      <span className="progressbar " id="progress-node"></span>
+					    </div>
+					  </li>
+					  <li>
+					    <div className="progressbar-title">
+					      <h3>Express Js <img src="./assets/img/express.png" class="img-fluid" /></h3>
+					        <span class="percent"><CountUp end={80}  duration={3.5}  delay={3.7} suffix="%"/></span>
+					    </div>
+					    <div className="bar-container">
+					      <span className="progressbar " id="progress-express"></span>
 					    </div>
 					  </li>
 					  <li>

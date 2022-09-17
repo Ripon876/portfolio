@@ -112,6 +112,12 @@ padding-top: 160px;
 	 -webkit-animation-delay: 3.5s;
 	 animation-delay: 3.5s;
 }
+ .skills-bar-container li .bar-container #progress-express {
+	 -webkit-animation-name: progress-express;
+	 animation-name: progress-express;
+	 -webkit-animation-delay: 3.5s;
+	 animation-delay: 3.5s;
+}
  .skills-bar-container li .bar-container #progress-mongodb {
 	 -webkit-animation-name: progress-mongodb;
 	 animation-name: progress-mongodb;
@@ -266,6 +272,14 @@ padding-top: 160px;
 	}
 	 100% {
 		 width: 65%;
+	}
+}
+ @keyframes progress-express {
+	 0% {
+		 width: 0%;
+	}
+	 100% {
+		 width: 80%;
 	}
 }
  
