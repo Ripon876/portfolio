@@ -2,7 +2,7 @@ import React,{useState,useEffect,useRef} from 'react';
 import Isotope from 'isotope-layout';
 import {Fade} from 'react-reveal';
 import ProjectItem from './ProjectItem';
-
+import {projects} from './data';
 
 
 function Gallery() {
@@ -15,6 +15,7 @@ function Gallery() {
   
 useEffect(() => {
 	setItems(parent.current.children)
+	console.log(projects)
 }, [])
 
 
@@ -42,21 +43,26 @@ useEffect(() => {
 		<div>
 		<div className="filerButtonContainer">
 			<button className="btn filterBtn" onClick={() => filter('*')}>All</button>
-			<button className="btn filterBtn" onClick={() => filter('full')}>Full stack</button>
+			<button className="btn filterBtn" onClick={() => filter('full_stack')}>Full stack</button>
 			<button className="btn filterBtn" onClick={() => filter('react')}>React</button>
-			<button className="btn filterBtn" onClick={() => filter('html&css')}>Html & Css</button>
+			<button className="btn filterBtn" onClick={() => filter('html_&_css')}>Html & Css</button>
+			<button className="btn filterBtn" onClick={() => filter('package')}>Packages <span className='small'>(custom)</span></button>
 		</div>
 	
   
 			<div className="row p-5 justify-content-center itemsContainer" ref={parent}>
-				<ProjectItem img={imgUrl} labels="html&css"/>
+			{projects?.map((project)=>
+				<ProjectItem img={project.img} labels={project.category} title={project.title} link={project.link} />
+			)}
+				
+				{/*<ProjectItem img={imgUrl} labels="react"/>
+				<ProjectItem img={imgUrl} labels="full_stack"/>
+				<ProjectItem img={imgUrl} labels="full_stack"/>
+			 	<ProjectItem img={imgUrl} labels="html_&_css"/>
 				<ProjectItem img={imgUrl} labels="react"/>
-				<ProjectItem img={imgUrl} labels="full"/>
-				<ProjectItem img={imgUrl} labels="full"/>
-			 	<ProjectItem img={imgUrl} labels="html&css"/>
-				<ProjectItem img={imgUrl} labels="react"/>
-				<ProjectItem img={imgUrl} labels="html&css"/>
-				<ProjectItem img={imgUrl} labels="full"/>
+				<ProjectItem img={imgUrl} labels="html_&_css"/>
+				<ProjectItem img={imgUrl} labels="full_stack"/>
+				<ProjectItem img={imgUrl} labels="package"/>*/}
 			</div>
        
 		</div>

@@ -67,3 +67,10 @@
 .projectItemCard:hover  i{
     opacity: 1;
 }
+.projectItemCard .iconDiv span{
+    opacity: 0;
+    transition: all 0.3s;
+}
+.projectItemCard:hover .iconDiv span{
+    opacity: 1;
+}
