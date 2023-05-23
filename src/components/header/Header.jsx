@@ -7,7 +7,6 @@ function Header() {
         <div className="container">
           <a className="navbar-brand position-relative" href="/">
             <img src="./assets/img/logo.png" alt="" className="logo" />
-           <span className="bottom-0  position-absolute">ipon</span>
           </a>
           <div className="social-media order-lg-last">
             <p className="mb-0 d-flex">

@@ -1,97 +1,97 @@
-body{
-    background-color: rgb(26, 27, 30) !important;
-    font-family: 'Roboto Mono', monospace;
-    overflow-x: hidden;
+body {
+  background-color: rgb(26, 27, 30) !important;
+  font-family: "Roboto Mono", monospace;
+  overflow-x: hidden;
 }
-nav{
+nav {
   z-index: 999999 !important;
 }
 
 iframe {
-    display: none;
+  display: none;
 }
-.fa-solid,.fas{
-       font-family: "Font Awesome 6 Free" !important;
+.fa-solid,
+.fas {
+  font-family: "Font Awesome 6 Free" !important;
 }
-.fa-brands, .fab {
-    font-family: "Font Awesome 6 Brands" !important;
-    font-weight: 400;
+.fa-brands,
+.fab {
+  font-family: "Font Awesome 6 Brands" !important;
+  font-weight: 400;
 }
-.ftco-navbar-light .navbar-nav > .nav-item.active > a{
-	color: #106eea !important;
+.ftco-navbar-light .navbar-nav > .nav-item.active > a {
+  color: #106eea !important;
 }
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-    color: #106eea !important;
+  color: #106eea !important;
 }
 
 img.logo {
-    height: 55px;
+  height: 55px;
 }
-a{
-    text-decoration: none !important;
+a {
+  text-decoration: none !important;
 }
 .social-media p a:hover {
-    background: #FAD53C !important;
-    color: white !important;
-    border-color: #FAD53C !important;
+  background: #fad53c !important;
+  color: white !important;
+  border-color: #fad53c !important;
 }
 .social-media a {
-	color: #106eea !important;
+  color: #106eea !important;
 }
 .slider > ul > .showli {
-    background-color: #106eea !important;
+  background-color: #106eea !important;
 }
 .slider > ul > li:hover {
-    background-color: #106eea !important;
+  background-color: #106eea !important;
 }
-.footer-copyright a{
-    color: #106eea !important;
-}
-
-.moveTo a{
-    color: #106eea !important;
+.footer-copyright a {
+  color: #106eea !important;
 }
 
-
-.teamMember{
-	height: 150px;
-	width: 150px;
-	transition: all 0.3s;
-}
-.fitImg{
-	object-fit: cover;
-    height: 100% !important;
-	transition: all 0.3s;
-}
-.memberInfo{
-    left: 50%;
-    margin: -25% 0 0 -50%;
-    display: block;
-    transition: all 0.3s;
-    bottom: 0;
-    width: 0;
-    opacity: 0;
-    padding: 0 !important;
-    text-align: center;
-    padding-bottom: 10px !important;
-    background: #00000078;
-    backdrop-filter: blur(7px);
+.moveTo a {
+  color: #106eea !important;
 }
 
-.teamMember .card-title{
-    font-size: 20px;
-    line-height: 1;
+.teamMember {
+  height: 150px;
+  width: 150px;
+  transition: all 0.3s;
 }
-.teamMember .card-text{
-     font-size: 12px;
+.fitImg {
+  object-fit: cover;
+  height: 100% !important;
+  transition: all 0.3s;
+}
+.memberInfo {
+  left: 50%;
+  margin: -25% 0 0 -50%;
+  display: block;
+  transition: all 0.3s;
+  bottom: 0;
+  width: 0;
+  opacity: 0;
+  padding: 0 !important;
+  text-align: center;
+  padding-bottom: 10px !important;
+  background: #00000078;
+  backdrop-filter: blur(7px);
+}
+
+.teamMember .card-title {
+  font-size: 20px;
+  line-height: 1;
+}
+.teamMember .card-text {
+  font-size: 12px;
 }
 
 .teamMember:hover .memberInfo {
-	opacity: 1;
-    width: 100%;
-    height: 50px;
+  opacity: 1;
+  width: 100%;
+  height: 50px;
 }
-
 
 /*--------------------------------------------------------------
 # Contact
@@ -104,8 +104,8 @@ a{
   transition: all 0.2s;
 }
 
-.contact .info-box:hover{
-	    box-shadow: 0 0 30px rgb(16 110 234 / 28%);
+.contact .info-box:hover {
+  box-shadow: 0 0 30px rgb(16 110 234 / 28%);
 }
 .contact .info-box i {
   font-size: 32px;
@@ -130,13 +130,18 @@ a{
 }
 
 nav.fixed-top.ftco-navbar-light.ftco_navbar.navbar.navbar-expand-lg * {
-    color: white !important;
+  color: white !important;
 }
 
 nav.ftco-navbar-light {
-    background: #25262B !important;
+  /* background: #25262b6b !important;
+  backdrop-filter: blur(8px); */
+  background: #0000005c !important;
+  box-shadow: 2px 2px 20px 5px #020202 !important;
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(15px);
 }
-.searchContainer input#search{
+.searchContainer input#search {
   height: 40px;
   padding: 5px 10px 5px 10px;
   border: none;
@@ -144,22 +149,22 @@ nav.ftco-navbar-light {
   outline: none;
 }
 
-.social-media-profile a{
-    color: black;
-    transition: all 0.2s;
+.social-media-profile a {
+  color: black;
+  transition: all 0.2s;
 }
-.social-media-profile i{
-    font-size: 20px;
-    transition: all 0.2s;
-    width: 25px;
-    height: 25px;
-    padding: 5px;
+.social-media-profile i {
+  font-size: 20px;
+  transition: all 0.2s;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
 }
-.social-media-profile a:hover{
-    color: #106eea;
+.social-media-profile a:hover {
+  color: #106eea;
 }
-.social-media-profile i:hover{
-    transform: scale(1.05);
+.social-media-profile i:hover {
+  transform: scale(1.05);
 }
 
 /* footer */
@@ -177,7 +182,7 @@ nav.ftco-navbar-light {
 }
 .footer .links li a:hover {
   text-decoration: none;
-  color: #4180CB;
+  color: #4180cb;
 }
 .footer .about-company i {
   font-size: 25px;
@@ -187,7 +192,7 @@ nav.ftco-navbar-light {
   transition: color 0.2s;
 }
 .footer .about-company a:hover {
-  color: #4180CB;
+  color: #4180cb;
 }
 .footer .location i {
   font-size: 18px;
@@ -196,34 +201,32 @@ nav.ftco-navbar-light {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.footer h2, h4 {
-    color: white;
+.footer h2,
+h4 {
+  color: white;
 }
-
-
-
 
 /*===================================================*/
 
 li.nav-item {
- padding: 0 5px;
+  padding: 0 5px;
 }
 .nav-item {
-    align-items: center;
-    margin: auto;
+  align-items: center;
+  margin: auto;
 }
-.nav-item .nav-link .active{
-    background: #3a3b40;
+.nav-item .nav-link .active {
+  background: #3a3b40;
 }
-.nav-item .nav-link:hover{
-    background: #3a3b40;
+.nav-item .nav-link:hover {
+  background: #3a3b40;
 }
 
-.nav-item .nav-link{
-    background: transparent;
-    padding: 8px 12px 8px 12px  !important;
-    border-radius: 5px;
-    transition: all 0.3s;
+.nav-item .nav-link {
+  background: transparent;
+  padding: 8px 12px 8px 12px !important;
+  border-radius: 5px;
+  transition: all 0.3s;
 }
 /*
 #tsparticles canvas{

@@ -4,7 +4,7 @@ import './Contact.css';
 
 function Contact() {
 	return (
-		<div id='contact'>
+		<div id='contact' data-aos="fade-up">
 			<div className="container py-5 text-center  mt-5">
 				<div className="aboutInfo py-3">
 					<h1>Contact</h1>

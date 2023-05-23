@@ -94,7 +94,7 @@ export const options = {
         opacity: 0.2
       }
     },
-    enable: false,
+    enable: true,
     inline: {
       arrangement: "equidistant"
     },

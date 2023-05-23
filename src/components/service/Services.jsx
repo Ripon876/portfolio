@@ -1,34 +1,28 @@
-import React from 'react';
-import ServiceItem from './ServiceItem';
-import Fade from 'react-reveal/Fade';
-import Jump from 'react-reveal/Jump';
+import ServiceItem from "./ServiceItem";
 import "./Services.css";
-
-
+import { services } from "./data";
 
 function Services() {
-	return (
-		<Fade right>
-			
-				<div className="service p-5" id="services">
-					<div className="container text-center p-5" >
-						<div className="serviceInfo py-3">
-							<h1>Services</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada.</p>
-						</div>
-						<div className="services pt-5">
-							<div className="justify-content-center row">	
-								<ServiceItem icon="fa-solid fa-code" title="SPA With React" text="Some quick example text to build on the card title and make up the bulk of the card's content." />					
-								<ServiceItem icon="fa-solid fa-code" title="API Creation" text="Some quick example text to build on the card title and make up the bulk of the card's content." />
-								<ServiceItem icon="fa-solid fa-code" title="API Integration" text="Some quick example text to build on the card title and make up the bulk of the card's content." />
-								<ServiceItem icon="fa-solid fa-code" title="Full Stack Web App" text="Some quick example text to build on the card title and make up the bulk of the card's content." />
-							</div>
-						</div>
-					</div>
-				</div>
-			
-		</Fade>
-	)
+  return (
+    <div className="service" id="services" data-aos="fade-up">
+      <div className="container text-center p-5">
+        <div className="serviceInfo py-3">
+          <h1>Services</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            rutrum congue leo eget malesuada.
+          </p>
+        </div>
+        <div className="services pt-5">
+          <div className="justify-content-center row">
+            {services?.map((service) => (
+              <ServiceItem icon="fa-solid fa-code" service={service} />
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Services;
