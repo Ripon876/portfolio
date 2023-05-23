@@ -11,7 +11,8 @@ function About() {
             <div className="aboutInfo py-3">
               <h1>About</h1>
               <p>
-              Learn about the Expertise, Creativity, and Problem-Solving Abilities that Drive My Career as a Full-Stack Developer
+                Learn about the Expertise, Creativity, and Problem-Solving
+                Abilities that Drive My Career as a Full-Stack Developer
               </p>
             </div>
             <div className="row">
@@ -51,16 +52,25 @@ function About() {
                   </p>
                   <div className="socialIcons">
                     <span className="d-flex gap-2 justify-content-start">
-                      <a href="https://github.com/Ripon876">
+                      <a href="https://github.com/Ripon876" target="_blank">
                         <i class="fa-brands fa-github"></i>
                       </a>
-                      <a href="https://www.facebook.com/ripon876">
+                      <a
+                        href="https://www.facebook.com/ripon876"
+                        target="_blank"
+                      >
                         <i class="fa-brands fa-facebook-f"></i>
                       </a>
-                      <a href="https://twitter.com/islam876ripon">
+                      <a
+                        href="https://twitter.com/islam876ripon"
+                        target="_blank"
+                      >
                         <i class="fa-brands fa-twitter"></i>
                       </a>
-                      <a href="https://www.instagram.com/ripon_876/">
+                      <a
+                        href="https://www.instagram.com/ripon_876/"
+                        target="_blank"
+                      >
                         <i class="fa-brands fa-instagram"></i>
                       </a>
                     </span>
