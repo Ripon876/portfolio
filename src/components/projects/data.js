@@ -24,6 +24,12 @@ export const projects = [
     link: "https://afternoon-citadel-20931.herokuapp.com/",
   },
   {
+    title: "Student Management",
+    img: "./assets/img/projects/full_stack_4.png",
+    category: "full_stack",
+    link: "https://live-exams.netlify.app/",
+  },
+  {
     title: "Dental Frontend",
     img: "./assets/img/projects/html_&_css_1.png",
     category: "html_&_css",

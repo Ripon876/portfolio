@@ -12,7 +12,6 @@ function Gallery() {
 
   useEffect(() => {
     setItems(parent.current.children);
-    console.log(projects);
   }, []);
 
   function filter(key) {
