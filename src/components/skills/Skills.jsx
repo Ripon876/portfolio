@@ -1,6 +1,7 @@
 import React from "react";
-import CountUp from "react-countup";
 import "./Skills.css";
+import Timeline from "../Timeline/Timeline";
+import { skills } from "./skills";
 
 function Skills() {
   return (
@@ -13,140 +14,39 @@ function Skills() {
             rutrum congue leo eget malesuada.
           </p>
         </div>
-        <div className="skills">
-          <ul className="skills-bar-container">
-            <li>
-              <div className="progressbar-title">
-                <h3>
-                  HTML5 & CSS3{" "}
-                  <img src="./assets/img/html.png" class="img-fluid" />
-                  <img src="./assets/img/css.png" class="img-fluid" />
-                </h3>
-                <span class="percent">
-                  <CountUp end={90} duration={3.5} delay={0} suffix="%" />
-                </span>
-              </div>
-              <div className="bar-container">
-                <span className="progressbar " id="progress-html-css"></span>
-              </div>
-            </li>
-            <li>
-              <div className="progressbar-title">
-                <h3>
-                  Bootstrap{" "}
-                  <img src="./assets/img/bootstrap.png" class="img-fluid" />
-                </h3>
-                <span class="percent">
-                  <CountUp end={95} duration={3.5} delay={1.5} suffix="%" />
-                </span>
-              </div>
-              <div className="bar-container">
-                <span className="progressbar " id="progress-bootstrap"></span>
-              </div>
-            </li>
-            <li>
-              <div className="progressbar-title">
-                <h3>
-                  JavaScript <img src="./assets/img/js.png" class="img-fluid" />
-                </h3>
-                <span class="percent">
-                  <CountUp end={75} duration={3.5} delay={2.2} suffix="%" />
-                </span>
-              </div>
-              <div className="bar-container">
-                <span className="progressbar " id="progress-javascript"></span>
-              </div>
-            </li>
-            <li>
-              <div className="progressbar-title">
-                <h3>
-                  Jquery <img src="./assets/img/jquery.png" class="img-fluid" />
-                </h3>
-                <span class="percent">
-                  <CountUp end={70} duration={3.5} delay={2.8} suffix="%" />
-                </span>
-              </div>
-              <div className="bar-container">
-                <span className="progressbar " id="progress-jquery"></span>
-              </div>
-            </li>
-
-            <li>
-              <div className="progressbar-title">
-                <h3>
-                  React Js{" "}
-                  <img src="./assets/img/react.png" class="img-fluid" />
-                </h3>
-                <span class="percent">
-                  <CountUp end={85} duration={3.5} delay={3} suffix="%" />
-                </span>
-              </div>
-              <div className="bar-container">
-                <span className="progressbar " id="progress-react"></span>
-              </div>
-            </li>
-            <li>
-              <div className="progressbar-title">
-                <h3>
-                  Node Js <img src="./assets/img/node.png" class="img-fluid" />
-                </h3>
-                <span class="percent">
-                  <CountUp end={70} duration={3.5} delay={3.7} suffix="%" />
-                </span>
-              </div>
-              <div className="bar-container">
-                <span className="progressbar " id="progress-node"></span>
-              </div>
-            </li>
-            <li>
-              <div className="progressbar-title">
-                <h3>
-                  Express Js{" "}
-                  <img src="./assets/img/express.png" class="img-fluid" />
-                </h3>
-                <span class="percent">
-                  <CountUp end={80} duration={3.5} delay={3.7} suffix="%" />
-                </span>
-              </div>
-              <div className="bar-container">
-                <span className="progressbar " id="progress-express"></span>
-              </div>
-            </li>
-            <li>
-              <div className="progressbar-title">
-                <h3>
-                  MongoDB
-                  <img src="./assets/img/mongodb.png" class="img-fluid" />
-                </h3>
-
-                <span class="percent">
-                  <CountUp end={70} duration={3.5} delay={4} suffix="%" />
-                </span>
-              </div>
-              <div className="bar-container">
-                <span className="progressbar " id="progress-mongodb"></span>
-              </div>
-            </li>
-            <li>
-              <div className="progressbar-title">
-                <h3>
-                  Neo4j
-                  <img
-                    src="./assets/img/neo4j.png"
-                    class="img-fluid"
-                    style={{ width: "80px", paddingLeft: "7px" }}
-                  />
-                </h3>
-
-                <span class="percent">
-                  <CountUp end={70} duration={3.5} delay={4} suffix="%" />
-                </span>
-              </div>
-              <div className="bar-container">
-                <span className="progressbar " id="progress-mongodb"></span>
-              </div>
-            </li>
-          </ul>
+        <div className="row">
+          <div className="col-12  col-md-8 mx-auto ">
+            <div className="row w-100">
+              {skills?.map((data) => (
+                <div className="col-6 mx-auto">
+                  <section
+                    className="py-5 text-start mx-auto"
+                    style={{ width: "max-content" }}
+                  >
+                    <Timeline {...data} />
+                  </section>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className=" col-12  col-md-4 mx-auto">
+            <section
+              className="py-5  text-start mx-auto"
+              style={{
+                display: "flex",
+                alignTtems: "center",
+                fontSize: "1.5rem",
+                textAlign: "center !important",
+              }}
+            >
+              <p>
+                With these I also have experience working with{" "}
+                <strong>
+                  <em>Socket.io, WebRTC, Docker (basic) and Github actions </em>
+                </strong>
+              </p>
+            </section>
+          </div>
         </div>
       </div>
     </div>

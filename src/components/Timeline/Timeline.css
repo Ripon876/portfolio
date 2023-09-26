@@ -1,0 +1,30 @@
+.timeline ul {
+  list-style: none;
+  border-left: 1px solid white;
+  padding: 0;
+}
+
+.timeline li {
+  padding-left: 2rem;
+  position: relative;
+}
+
+.timeline span {
+  position: absolute;
+  left: -15px;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  background: #1a1b1e;
+  border-radius: 50%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline h3 {
+  text-decoration: underline;
+  margin-left: -13px;
+  margin-bottom: 20px;
+}
