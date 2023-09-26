@@ -1,0 +1,21 @@
+div#experiences {
+  padding-top: 130px !important;
+}
+.experiences * {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+.experiences .container {
+  /* background: #25262b;
+    border-radius: 30px;
+    backdrop-filter: blur(1px);
+    font-family: 'Roboto Mono', monospace; */
+  border: 2px solid #575757;
+  background: #0000005c;
+  border-radius: 30px;
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(15px);
+}
+.experiences .container h1 {
+  font-size: 40px;
+}

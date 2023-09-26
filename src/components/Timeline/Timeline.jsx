@@ -4,7 +4,7 @@ import "./Timeline.css";
 const Timeline = ({ title, items }) => {
   return (
     <div className="timeline">
-      <h3>{title ?? ""}: </h3>
+      {title && <h3>{title}: </h3>}
       <ul>
         {items?.map(({ img, title, date, content }) => (
           <li>
