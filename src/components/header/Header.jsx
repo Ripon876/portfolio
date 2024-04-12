@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div>
+    <div id="home">
       <nav className="fixed-top ftco-navbar-light ftco_navbar navbar navbar-expand-lg">
         <div className="container">
           <a className="navbar-brand position-relative" href="/">
@@ -14,29 +14,33 @@ function Header() {
                 href="https://github.com/Ripon876"
                 className="d-flex align-items-center justify-content-center"
                 target="_blank"
+                rel="noreferrer"
               >
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/mdripondev"
+                className="d-flex align-items-center justify-content-center"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa-brands fa-linkedin-in"></i>
               </a>
               <a
                 href="https://www.facebook.com/ripon876"
                 className="d-flex align-items-center justify-content-center"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i className="fa-brands fa-facebook-f"></i>
               </a>
               <a
-                href="https://twitter.com/islam876ripon"
+                href="https://twitter.com/mdripon_dev"
                 className="d-flex align-items-center justify-content-center"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i className="fa-brands fa-twitter"></i>
-              </a>
-              <a
-                href="https://www.instagram.com/ripon_876"
-                className="d-flex align-items-center justify-content-center"
-                target="_blank"
-              >
-                <i className="fa-brands fa-instagram"></i>
               </a>
             </p>
           </div>
@@ -55,7 +59,7 @@ function Header() {
           <div className="collapse navbar-collapse" id="ftco-nav">
             <ul className="navbar-nav ml-auto mr-md-3 text-center">
               <li className="nav-item active">
-                <a href="#" className="nav-link active">
+                <a href="/#home" className="nav-link active">
                   Home
                 </a>
               </li>
@@ -67,11 +71,6 @@ function Header() {
               <li className="nav-item">
                 <a href="#skills" className="nav-link">
                   Skills
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="#services" className="nav-link">
-                  Services
                 </a>
               </li>
               <li className="nav-item">

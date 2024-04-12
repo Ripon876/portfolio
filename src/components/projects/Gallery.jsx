@@ -1,12 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
-import Isotope from "isotope-layout";
-import { Fade } from "react-reveal";
 import ProjectItem from "./ProjectItem";
 import { projects } from "./data";
 
 function Gallery() {
-  const [isotope, setIsotope] = useState(null);
-  const [filterKey, setFilterKey] = useState("*");
   const [items, setItems] = useState([]);
   const parent = useRef(null);
 
@@ -40,6 +36,9 @@ function Gallery() {
         </button>
         <button className="btn filterBtn" onClick={() => filter("react")}>
           React
+        </button>
+        <button className="btn filterBtn" onClick={() => filter("vue")}>
+          Vue
         </button>
         <button className="btn filterBtn" onClick={() => filter("html_&_css")}>
           Html & Css

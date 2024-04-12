@@ -1,7 +1,7 @@
 import React from "react";
 import "./Skills.css";
 import Timeline from "../Timeline/Timeline";
-import { skills } from "./skills";
+import { skills } from "./skills-data";
 
 function Skills() {
   return (

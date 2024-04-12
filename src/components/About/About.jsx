@@ -1,5 +1,4 @@
 import React from "react";
-import { Fade, Zoom, Rotate } from "react-reveal";
 import "./About.css";
 
 function About() {
@@ -16,10 +15,10 @@ function About() {
               </p>
             </div>
             <div className="row">
-              <div className="col-lg-4 p-4">
+              <div className="col-lg-4 p-4 d-flex align-items-center justify-content-center">
                 <div className="aboutImgContainer m-auto">
                   <img
-                    src="./assets/img/ripon.jpg"
+                    src="./assets/img/ripon.png"
                     alt="MD Ripon Islam"
                     className="img-fluid rounded-circle"
                   />
@@ -52,26 +51,33 @@ function About() {
                   </p>
                   <div className="socialIcons">
                     <span className="d-flex gap-2 justify-content-start">
-                      <a href="https://github.com/Ripon876" target="_blank">
-                        <i class="fa-brands fa-github"></i>
+                      <a
+                        href="https://github.com/Ripon876"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="fa-brands fa-github"></i>
+                      </a>
+                      <a
+                        href="https://www.linkedin.com/in/mdripondev"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="fa-brands fa-linkedin-in"></i>
                       </a>
                       <a
                         href="https://www.facebook.com/ripon876"
                         target="_blank"
+                        rel="noreferrer"
                       >
-                        <i class="fa-brands fa-facebook-f"></i>
+                        <i className="fa-brands fa-facebook-f"></i>
                       </a>
                       <a
-                        href="https://twitter.com/islam876ripon"
+                        href="https://twitter.com/mdripon_dev"
                         target="_blank"
+                        rel="noreferrer"
                       >
-                        <i class="fa-brands fa-twitter"></i>
-                      </a>
-                      <a
-                        href="https://www.instagram.com/ripon_876/"
-                        target="_blank"
-                      >
-                        <i class="fa-brands fa-instagram"></i>
+                        <i className="fa-brands fa-twitter"></i>
                       </a>
                     </span>
                   </div>

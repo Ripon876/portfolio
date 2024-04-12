@@ -1,5 +1,17 @@
 export const projects = [
   {
+    title: "Research Pub",
+    img: "./assets/img/projects/react_4.png",
+    category: "react",
+    link: "https://researchpub.netlify.app/",
+  },
+  {
+    title: "Memory Guessing Game",
+    img: "./assets/img/projects/vue_1.png",
+    category: "vue",
+    link: "https://memory-guessing-game.netlify.app/",
+  },
+  {
     title: "Business Website (frontend)",
     img: "./assets/img/projects/full_stack_1.png",
     category: "full_stack",
@@ -21,12 +33,6 @@ export const projects = [
     title: "Student Management",
     img: "./assets/img/projects/full_stack_4.png",
     category: "full_stack",
-    link: "https://afternoon-citadel-20931.herokuapp.com/",
-  },
-  {
-    title: "Student Management",
-    img: "./assets/img/projects/full_stack_4.png",
-    category: "full_stack",
     link: "https://live-exams.netlify.app/",
   },
   {
@@ -34,12 +40,6 @@ export const projects = [
     img: "./assets/img/projects/html_&_css_1.png",
     category: "html_&_css",
     link: "https://dental-frontend.netlify.app/",
-  },
-  {
-    title: "Research Pub",
-    img: "./assets/img/projects/react_4.png",
-    category: "react",
-    link: "https://researchpub.netlify.app/",
   },
   {
     title: "Html Template",
@@ -59,7 +59,6 @@ export const projects = [
     category: "html_&_css",
     link: "https://globalrahmah-frontend.netlify.app/",
   },
-  
 
   {
     title: "Business Website 2",

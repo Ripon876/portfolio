@@ -1,6 +1,6 @@
 import Timeline from "../Timeline/Timeline";
 import "./Experiences.css";
-import { experiences } from "./experiences";
+import { experiences } from "./experiences-data";
 
 function Experiences() {
   return (

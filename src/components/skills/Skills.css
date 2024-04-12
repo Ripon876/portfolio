@@ -6,9 +6,7 @@
   font-family: "Roboto Mono", monospace;
 }
 #skills .container {
-  border: 2px solid #575757;
   background: #0000005c;
-  border-radius: 30px;
   -webkit-backdrop-filter: blur(1px);
   backdrop-filter: blur(15px);
 }

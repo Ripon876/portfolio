@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(26, 27, 30) !important;
+  /* background-color: rgb(26, 27, 30) !important; */
+  background-color: #020202 !important;
   font-family: "Roboto Mono", monospace;
   overflow-x: hidden;
 }

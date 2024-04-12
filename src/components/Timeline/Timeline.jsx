@@ -12,9 +12,9 @@ const Timeline = ({ title, items }) => {
               {img && <img src={img} className="img-fluid p-1" alt="" />}
             </span>
 
-            <h5 class="fw-bold">{title ?? ""}</h5>
-            <p class="text-muted mb-2 fw-bold">{date ?? ""}</p>
-            <p class="text-muted">{content ?? ""}</p>
+            <h5 className="fw-bold">{title ?? ""}</h5>
+            <p className="text-muted mb-2 fw-bold">{date ?? ""}</p>
+            <p className="text-muted">{content ?? ""}</p>
           </li>
         ))}
       </ul>

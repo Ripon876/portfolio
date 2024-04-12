@@ -13,7 +13,7 @@ function ProjectItem({ img, labels, title, link }) {
             alt=""
           />
           <div className="d-grid iconDiv">
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noreferrer">
               <i className="fa-share-from-square fa-solid"></i>
             </a>
             <span>{title}</span>

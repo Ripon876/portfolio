@@ -1,47 +1,10 @@
-import React, { useEffect, useCallback } from "react";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
-import { options } from "./options";
+import React from "react";
 import Typed from "react-typed";
-import Fade from "react-reveal/Fade";
 import "./Banner.css";
 
 function Banner() {
-  const particlesInit = useCallback(async (engine) => {
-    console.log(engine);
-    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
-    await loadFull(engine);
-  }, []);
-
-  useEffect(() => {
-    if (window.VANTA) {
-      window.VANTA.GLOBE({
-        el: ".background",
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 200.0,
-        minWidth: 200.0,
-        scale: 1.0,
-        scaleMobile: 1.0,
-        // color: 0xffffff,
-        // color: 0x575757,
-        color: 0x929292,
-        // color2: 0xffffff,
-        backgroundColor: 0x20202,
-      });
-    }
-  }, []);
-
   return (
     <div className="banner">
-      {/* <Particles
-        options={options}
-        // params={}
-        init={particlesInit}
-      /> */}
       <div
         className="background"
         style={{
@@ -53,12 +16,12 @@ function Banner() {
 
       <div className="bannerContainer" data-aos="fade-up">
         <h1>
-          I am a
+          I am
           <span className="ps-3">
             <Typed
               typeSpeed={100}
               backSpeed={70}
-              strings={[" Developer", " Student"]}
+              strings={["a Fullstack Developer", "curious about the WEB"]}
               smartBackspace
               shuffle={false}
               backDelay={100}

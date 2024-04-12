@@ -6,10 +6,7 @@ div#about {
   font-family: "Roboto Mono", monospace;
 }
 .about .container {
-  /* background: #25262b; */
-  border: 2px solid #575757;
   background: #0000005c;
-  border-radius: 30px;
   -webkit-backdrop-filter: blur(1px);
   backdrop-filter: blur(15px);
 }
@@ -21,7 +18,6 @@ div#about {
   width: 350px;
 }
 .aboutImgContainer img {
-  filter: grayscale(100%);
   height: 100%;
   /*box-shadow: -1px 4px 18px 3px #1a1b1e9c;*/
   transition: all 0.3s ease-in-out;
