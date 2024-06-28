@@ -10,8 +10,8 @@ function Skills() {
         <div className="serviceInfo py-3">
           <h1>Skills</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            rutrum congue leo eget malesuada.
+            Proven expertise in delivering innovative solutions through a
+            diverse skill set and continuous learning
           </p>
         </div>
         <div className="row">

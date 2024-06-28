@@ -9,8 +9,8 @@ function Contact() {
         <div className="aboutInfo py-3">
           <h1>Contact</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            rutrum congue leo eget malesuada.
+            Feel free to reach out to me for any inquiries or opportunities. I'm
+            available via email, phone, or through my social media profiles.
           </p>
         </div>
         <div className="row justify-content-center">

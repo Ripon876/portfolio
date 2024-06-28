@@ -9,8 +9,9 @@ function Experiences() {
         <div className="experienceInfo py-3">
           <h1>Experiences</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            rutrum congue leo eget malesuada.
+            Experienced in frontend, backend, and fullstack development with a
+            proven ability to optimize performance and develop scalable
+            solutions.
           </p>
         </div>
         <div className="services pt-5 text-start">
