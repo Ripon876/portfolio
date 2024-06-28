@@ -18,7 +18,7 @@ function Skills() {
           <div className="col-12  mx-auto ">
             <div className="row w-100">
               {skills?.map((data) => (
-                <div className="col-10 col-lg-4 mx-auto">
+                <div className="col-10 col-lg-4 mx-auto" key={data.title}>
                   <section
                     className="py-5 text-start mx-auto"
                     style={{ width: "max-content" }}

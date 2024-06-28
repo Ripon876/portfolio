@@ -7,7 +7,7 @@ const Timeline = ({ title, items }) => {
       {title && <h3>{title}: </h3>}
       <ul>
         {items?.map(({ img, title, date, content }) => (
-          <li>
+          <li key={title}>
             <span>
               {img && <img src={img} className="img-fluid p-1" alt="" />}
             </span>

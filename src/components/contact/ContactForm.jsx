@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import axios from "axios";
+// import axios from "axios";
 
 function ContactForm() {
   var initialData = {
@@ -16,14 +16,13 @@ function ContactForm() {
   };
 
   const [data, setData] = useState(initialData);
-  const [msg, setMsg] = useState("");
+  const [msg] = useState("");
   const regExp = RegExp(/^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/);
   var isError = data.isError;
 
   const checkForm = (data) => {
     var errKey;
     for (const key in data) {
-      var newData;
       if (typeof data[key] !== "object" && data[key] === "") {
         errKey = key;
         isError[key] = "Required";
@@ -46,15 +45,13 @@ function ContactForm() {
     e.preventDefault();
 
     if (checkForm(data)) {
-      var { isError, ...formData } = data;
+      // var { isError, ...formData } = data;
       //   axios.post(`${process.env.REACT_APP_SITE_HOST}/api/contact`,formData)
       //   .then((res) => {
-
       // if(res.status === 200 && res.data.success === true){
       // 	setMsg(res.data.msg);
       // 	setData(initialData)
       // }
-
       //   })
     }
   }
