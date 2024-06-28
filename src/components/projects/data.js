@@ -1,12 +1,36 @@
 export const projects = [
   {
+    title: "Fyndo - Social Media",
+    img: "./assets/img/projects/full_stack_3.png",
+    category: "full_stack",
+    link: "https://fyndo.netlify.app/",
+  },
+  {
     title: "Research Pub",
     img: "./assets/img/projects/react_4.png",
     category: "react",
     link: "https://researchpub.netlify.app/",
   },
   {
-    title: "Memory Guessing Game",
+    title: "Blogsbee",
+    img: "./assets/img/projects/full_stack_5.png",
+    category: "full_stack svelte",
+    link: "https://blogsbee.netlify.app/",
+  },
+  {
+    title: "Quiz App",
+    img: "./assets/img/projects/svelte_1.png",
+    category: "svelte",
+    link: "https://svelte-quiz-appp.netlify.app/",
+  },
+  {
+    title: "Drag & Drop Editor",
+    img: "./assets/img/projects/javascript_1.png",
+    category: "javascript",
+    link: "https://dnd-page-builder.netlify.app/",
+  },
+  {
+    title: "Memory Game",
     img: "./assets/img/projects/vue_1.png",
     category: "vue",
     link: "https://memory-guessing-game.netlify.app/",
@@ -24,14 +48,8 @@ export const projects = [
     link: "http://bange1.herokuapp.com/",
   },
   {
-    title: "Simple Social Media",
-    img: "./assets/img/projects/full_stack_3.png",
-    category: "full_stack",
-    link: "https://fyndo.netlify.app/",
-  },
-  {
-    title: "Student Management",
-    img: "./assets/img/projects/full_stack_4.png",
+    title: "RFA Tutors",
+    img: "./assets/img/projects/full_stack_6.png",
     category: "full_stack",
     link: "https://live-exams.netlify.app/",
   },
@@ -41,25 +59,6 @@ export const projects = [
     category: "html_&_css",
     link: "https://dental-frontend.netlify.app/",
   },
-  {
-    title: "Html Template",
-    img: "./assets/img/projects/html_&_css_3.png",
-    category: "html_&_css",
-    link: "https://simple-html-template.netlify.app/",
-  },
-  {
-    title: "Simple Netflix Clone",
-    img: "./assets/img/projects/react_1.png",
-    category: "react",
-    link: "https://simple-netflix-clone.netlify.app/",
-  },
-  {
-    title: "Global Rahmah",
-    img: "./assets/img/projects/react_1.png",
-    category: "html_&_css",
-    link: "https://globalrahmah-frontend.netlify.app/",
-  },
-
   {
     title: "Business Website 2",
     img: "./assets/img/projects/react_2.png",
@@ -71,11 +70,5 @@ export const projects = [
     img: "./assets/img/projects/react_3.png",
     category: "react",
     link: "https://genderlookup.netlify.app/",
-  },
-  {
-    title: "React Filter Element",
-    img: "./assets/img/projects/package_1.png",
-    category: "package",
-    link: "https://react-filter-element.netlify.app/",
   },
 ];

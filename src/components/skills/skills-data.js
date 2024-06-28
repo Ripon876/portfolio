@@ -8,6 +8,7 @@ export const skills = [
       { img: "./assets/img/skills/next.png", title: "Next Js" },
       { img: "./assets/img/skills/vue.png", title: "Vue" },
       { img: "./assets/img/skills/angular.png", title: "Angular" },
+      { img: "./assets/img/skills/svelte.svg", title: "Svelte" },
       { img: "./assets/img/skills/webrtc.svg", title: "WebRTC" },
     ],
   },

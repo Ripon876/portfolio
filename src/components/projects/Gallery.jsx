@@ -34,17 +34,17 @@ function Gallery() {
         <button className="btn filterBtn" onClick={() => filter("full_stack")}>
           Full stack
         </button>
+        <button className="btn filterBtn" onClick={() => filter("javascript")}>
+          Javascript
+        </button>
         <button className="btn filterBtn" onClick={() => filter("react")}>
           React
         </button>
         <button className="btn filterBtn" onClick={() => filter("vue")}>
           Vue
         </button>
-        <button className="btn filterBtn" onClick={() => filter("html_&_css")}>
-          Html & Css
-        </button>
-        <button className="btn filterBtn" onClick={() => filter("package")}>
-          Packages <span className="small">(custom)</span>
+        <button className="btn filterBtn" onClick={() => filter("svelte")}>
+          Svelte
         </button>
       </div>
 
