@@ -15,10 +15,10 @@ function Skills() {
           </p>
         </div>
         <div className="row">
-          <div className="col-12  col-md-8 mx-auto ">
+          <div className="col-12  mx-auto ">
             <div className="row w-100">
               {skills?.map((data) => (
-                <div className="col-6 mx-auto">
+                <div className="col-10 col-lg-4 mx-auto">
                   <section
                     className="py-5 text-start mx-auto"
                     style={{ width: "max-content" }}
@@ -29,7 +29,7 @@ function Skills() {
               ))}
             </div>
           </div>
-          <div className=" col-12  col-md-4 mx-auto">
+          {/* <div className=" col-12  col-md-4 mx-auto">
             <section
               className="py-5  text-start mx-auto"
               style={{
@@ -46,7 +46,7 @@ function Skills() {
                 </strong>
               </p>
             </section>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
