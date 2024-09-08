@@ -12,6 +12,12 @@ export const projects = [
     link: "https://researchpub.netlify.app/",
   },
   {
+    title: "No Code Web Automation",
+    img: "./assets/img/projects/full_stack_1.png",
+    category: "full_stack",
+    link: "https://no-code-web-automation.netlify.app/",
+  },
+  {
     title: "Blogsbee",
     img: "./assets/img/projects/full_stack_5.png",
     category: "full_stack svelte",
@@ -37,7 +43,7 @@ export const projects = [
   },
   {
     title: "Business Website (frontend)",
-    img: "./assets/img/projects/full_stack_1.png",
+    img: "./assets/img/projects/full_stack_7.png",
     category: "full_stack",
     link: "https://bangi.a2series.com/",
   },
